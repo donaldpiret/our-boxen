@@ -39,7 +39,7 @@ Repository {
   extra    => [
     '--recurse-submodules'
   ],
-  config   => {credential.helper => "${boxen::config::repodir}/script/boxen-git-credential"},
+  config   => { 'credential.helper' => "${boxen::config::repodir}/script/boxen-git-credential"},
   require  => Class['git']
 }
 
