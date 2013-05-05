@@ -3,6 +3,7 @@
 /.librarian
 /.snapshot
 /.tmp
+/.projects
 /.env
 /bin
 /config/local.rb
