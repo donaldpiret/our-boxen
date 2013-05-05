@@ -6,14 +6,11 @@ class projects::roomorama {
   include memcached
   include nginx
 
-  include mysql
-  mysql::db { 'roomorama': }
-
-  roomorama::install-project { 'roomorama':
+  roomorama::project { 'roomorama':
     dotenv        => false,
     memcached     => true,
     elasticsearch => true,
-    mysql         => false,
+    mysql         => true,
     nginx         => true,
     redis         => true,
     ruby          => '1.9.3',

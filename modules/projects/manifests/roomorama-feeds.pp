@@ -2,13 +2,11 @@ class projects::roomorama-feeds {
   include mysql
   include nginx
 
-  mysql::db { 'roomorama_feeds': }
-
-  roomorama::install-project { 'roomorama-feeds':
+  roomorama::project { 'roomorama-feeds':
     dotenv        => false,
     memcached     => false,
     elasticsearch => false,
-    mysql         => false,
+    mysql         => true,
     nginx         => true,
     redis         => false,
     ruby          => '1.9.3',

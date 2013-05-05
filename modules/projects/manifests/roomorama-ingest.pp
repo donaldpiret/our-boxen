@@ -2,13 +2,11 @@ class projects::roomorama-ingest {
   include mysql
   include nginx
 
-  mysql::db { 'roomorama_ingest': }
-
-  roomorama::install-project { 'roomorama-ingest':
+  roomorama::project { 'roomorama-ingest':
       dotenv        => false,
       memcached     => false,
       elasticsearch => false,
-      mysql         => false,
+      mysql         => true,
       nginx         => true,
       redis         => false,
       ruby          => '1.9.3',

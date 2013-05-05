@@ -3,13 +3,11 @@ class projects::roomorama-phone {
   include redis
   include nginx
 
-  mysql::db { 'roomorama_phone': }
-
-  roomorama::install-project { 'roomorama-phone':
+  roomorama::project { 'roomorama-phone':
     dotenv        => false,
     memcached     => false,
     elasticsearch => false,
-    mysql         => false,
+    mysql         => true,
     nginx         => true,
     redis         => true,
     ruby          => '1.9.3',

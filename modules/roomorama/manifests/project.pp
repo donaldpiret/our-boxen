@@ -45,7 +45,7 @@
 #       Repo to clone project from. REQUIRED. Supports shorthand <user>/<repo>.
 #
 
-define roomorama::install-project(
+define roomorama::project(
   $source,
   $dir           = undef,
   $dotenv        = undef,
@@ -92,8 +92,9 @@ define roomorama::install-project(
   }
 
   if $mysql {
+    $db_name = regsubst($name, '-', '_')
     $mysql_dbs = $mysql ? {
-      true    => ["${name}_development", "${name}_test"],
+      true    => ["${db_name}", "${db_name}_test"],
       default => $mysql,
     }
 
@@ -124,8 +125,9 @@ define roomorama::install-project(
   }
 
   if $postgresql {
+    $db_name = regsubst($name, '-', '_')
     $psql_dbs = $postgresql ? {
-      true    => ["${name}_development", "${name}_test"],
+      true    => ["${db_name}", "${db_name}_test"],
       default => $postgresql,
     }
 

@@ -60,6 +60,7 @@ github "sublime_text_2", "1.1.0"
 github "propane",     "1.0.0"
 github "java",        "1.1.0"
 github "xquartz",     "1.1.0"
-# github "dotfiles", nil, :repo => "boinger/puppet-dotfiles"
+github "spotify",     "1.0.0"
+github "dotfiles",    "1.0.0", :repo => "roomorama/puppet-dotfiles"
 
 

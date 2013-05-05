@@ -5,5 +5,4 @@ class roomorama::projects {
   include projects::roomorama-phone
   include projects::roomorama-ingest
   include projects::roomorama-feeds
-
 }
