@@ -8,9 +8,7 @@ class projects::roomorama {
   include memcached
 
   include mysql
-  mysql::db {
-    'roomorama'
-  }
+  mysql::db { 'roomorama': }
 
   boxen::project { 'roomorama':
     dotenv        => false,
