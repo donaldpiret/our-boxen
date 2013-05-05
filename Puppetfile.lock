@@ -69,6 +69,11 @@ GITHUBTARBALL
     onepassword (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-osx
+  specs:
+    osx (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-propane
   specs:
     propane (1.0.0)
@@ -156,6 +161,7 @@ DEPENDENCIES
   mysql (>= 0)
   nginx (= 1.1.0)
   onepassword (>= 0)
+  osx (>= 0)
   propane (>= 0)
   redis (>= 0)
   redis (>= 0)
