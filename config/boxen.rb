@@ -7,6 +7,9 @@
 # Change the repo boxen will use.
 ENV['BOXEN_REPO_NAME'] = 'roomorama/roomorama-boxen'
 
+# Change the location of the projects
+ENV['BOXEN_SRC_DIR'] = "/Users/#{user}/Projects"
+
 # Boxen binary packaging
 # ENV["BOXEN_S3_ACCESS_KEY"] = ''
 # ENV["BOXEN_S3_SECRET_KEY"] = ''
