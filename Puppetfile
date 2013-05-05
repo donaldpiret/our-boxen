@@ -10,6 +10,12 @@ def github(name, version, options = nil)
   mod name, version, :github_tarball => options[:repo]
 end
 
+def roomorama_github(name, version, options = nil)
+  options ||= {}
+  options[:repo] ||= "roomorama/puppet-#{name}"
+  mod name, version, :github_tarball => options[:repo]
+end
+
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
@@ -25,11 +31,17 @@ github "homebrew", "1.1.2"
 github "hub",      "1.0.0"
 github "inifile",  "0.9.0", :repo => "cprice-puppet/puppetlabs-inifile"
 github "nginx",    "1.1.0"
-github "nodejs",   "1.0.0"
-github "nvm",      "1.0.0"
+#github "nodejs",   "1.0.0"
+#github "nvm",      "1.0.0"
 github "ruby",     "3.1.0"
 github "stdlib",   "3.0.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",     "1.0.0"
+github "repository", "1.0.0"
+github "mysql",     "1.0.0"
+github "rubymine",  "1.0.0"
+github "textmate",  "1.0.0"
+github "wkhtmltopdf", "1.0.0"
+github "onepassword", "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
