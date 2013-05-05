@@ -1,6 +1,9 @@
 class people::donaldpiret {
-  include textmate
+  include zsh
+  include textmate::textmate2::nightly
   include onepassword
+  include things
+  include skype
 
   # $home     = "/Users/${::luser}"
   # $my       = "${home}/my"

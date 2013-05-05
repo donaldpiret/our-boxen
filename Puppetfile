@@ -4,7 +4,7 @@
 # default. This ensures at least the ability to construct a basic
 # environment.
 
-def github(name, version, options = nil)
+def github(name, version = nil, options = nil)
   options ||= {}
   options[:repo] ||= "boxen/puppet-#{name}"
   mod name, version, :github_tarball => options[:repo]
@@ -19,7 +19,7 @@ end
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen", "1.2.0"
+github "boxen", "2.1.0", :repo => "boxen/puppet-boxen"
 
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
@@ -36,12 +36,27 @@ github "nginx",    "1.1.0"
 github "ruby",     "3.1.0"
 github "stdlib",   "3.0.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",     "1.0.0"
-github "repository", "1.0.0"
-github "mysql",     "1.0.0"
-github "rubymine",  "1.0.0"
-github "textmate",  "1.0.0"
-github "wkhtmltopdf", "1.0.0"
-github "onepassword", "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+github "repository"
+github "mysql"
+github "rubymine"
+github "textmate"
+github "wkhtmltopdf"
+github "onepassword"
+github "redis"
+github "zsh"
+github "chrome"
+github "imagemagick"
+github "elasticsearch"
+github "things"
+github "memcached"
+github "skype"
+github "dropbox"
+github "sublime_text_2"
+github "propane"
+github "elasticsearch"
+github "imagemagick"
+github "redis"
+
