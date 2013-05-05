@@ -1,0 +1,4 @@
+class developers::environment {
+  # Cookbooks
+
+}

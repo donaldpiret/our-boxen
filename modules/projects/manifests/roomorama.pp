@@ -4,6 +4,7 @@ class projects::roomorama {
   include redis
   include wkhtmltopdf
   include memcached
+  include nginx
 
   include mysql
   mysql::db { 'roomorama': }
@@ -16,6 +17,6 @@ class projects::roomorama {
     nginx         => true,
     redis         => true,
     ruby          => '1.9.3',
-    source        => 'roomorama/roomorama'
+    source        => 'https://github.com/roomorama/roomorama.git'
   }
 }

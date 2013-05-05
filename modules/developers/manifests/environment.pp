@@ -1,15 +1,13 @@
 class developers::environment {
-# Rubymine
-include rubymine
+  # Rubymine
+  include rubymine
 
-# Chrome
-include chrome
+  # Chrome
+  include chrome
 
-# Propane
-include propane
+  # Propane
+  include propane
 
-# Dropbox
-include dropbox
-
-include projects::roomorama
+  # Dropbox
+  include dropbox
 }
