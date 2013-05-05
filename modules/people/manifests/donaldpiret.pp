@@ -12,8 +12,8 @@ class people::donaldpiret {
   include osx::no_network_dsstores
 
   # Dotfiles
-  include dotfiles
-  dotfiles { 'donaldpiret': }
+  # include dotfiles
+  # dotfiles { 'donaldpiret': }
 
   # Git configuration
   include git
