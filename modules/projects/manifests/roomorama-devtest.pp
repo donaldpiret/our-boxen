@@ -1,4 +1,4 @@
-class projects::roomorama-feeds {
+class projects::roomorama-devtest {
 
 
   boxen::project { 'roomorama-devtest':
