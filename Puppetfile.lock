@@ -109,6 +109,11 @@ GITHUBTARBALL
     skype (1.0.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-spotify
+  specs:
+    spotify (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-sublime_text_2
   specs:
     sublime_text_2 (1.1.0)
@@ -154,6 +159,11 @@ GITHUBTARBALL
     stdlib (3.0.0)
 
 GITHUBTARBALL
+  remote: roomorama/puppet-dotfiles
+  specs:
+    dotfiles (1.0.0)
+
+GITHUBTARBALL
   remote: roomorama/puppet-ohmyzsh
   specs:
     ohmyzsh (1.0.0)
@@ -162,6 +172,7 @@ DEPENDENCIES
   boxen (= 2.1.0)
   chrome (= 1.1.0)
   dnsmasq (= 1.0.0)
+  dotfiles (= 1.0.0)
   dropbox (= 1.1.0)
   elasticsearch (= 1.0.0)
   gcc (= 1.0.0)
@@ -183,6 +194,7 @@ DEPENDENCIES
   ruby (= 3.1.0)
   rubymine (= 1.0.1)
   skype (= 1.0.2)
+  spotify (= 1.0.0)
   stdlib (= 3.0.0)
   sublime_text_2 (= 1.1.0)
   sudo (= 1.0.0)
