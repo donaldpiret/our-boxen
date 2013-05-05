@@ -153,6 +153,11 @@ GITHUBTARBALL
   specs:
     stdlib (3.0.0)
 
+GITHUBTARBALL
+  remote: roomorama/puppet-ohmyzsh
+  specs:
+    ohmyzsh (1.0.0)
+
 DEPENDENCIES
   boxen (= 2.1.0)
   chrome (>= 0)
@@ -171,6 +176,7 @@ DEPENDENCIES
   memcached (>= 0)
   mysql (>= 0)
   nginx (= 1.1.0)
+  ohmyzsh (>= 0)
   onepassword (>= 0)
   osx (>= 0)
   propane (>= 0)

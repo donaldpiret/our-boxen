@@ -22,6 +22,12 @@ load local if File.file? local
 require "rubygems"
 require "bundler/setup"
 
+# Require custom environment
+require 'dotenv'
+Dotenv.load
+
+puts "Got Github API Token: #{ENV['GITHUB_API_TOKEN']}" if ENV['GITHUB_API_TOKEN']
+
 # Add local lib to the front of the load path if it exists.
 
 lib = File.expand_path "../../lib", __FILE__
