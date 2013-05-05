@@ -60,4 +60,6 @@ github "propane"
 github "elasticsearch"
 github "imagemagick"
 github "redis"
+github "java"
+github "xquartz"
 

@@ -49,6 +49,11 @@ GITHUBTARBALL
     imagemagick (1.2.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-java
+  specs:
+    java (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-memcached
   specs:
     memcached (1.2.0)
@@ -129,6 +134,11 @@ GITHUBTARBALL
     wkhtmltopdf (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-xquartz
+  specs:
+    xquartz (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-zsh
   specs:
     zsh (1.0.0)
@@ -157,6 +167,7 @@ DEPENDENCIES
   imagemagick (>= 0)
   imagemagick (>= 0)
   inifile (= 0.9.0)
+  java (>= 0)
   memcached (>= 0)
   mysql (>= 0)
   nginx (= 1.1.0)
@@ -175,5 +186,6 @@ DEPENDENCIES
   textmate (>= 0)
   things (>= 0)
   wkhtmltopdf (>= 0)
+  xquartz (>= 0)
   zsh (>= 0)
 
