@@ -1,6 +1,4 @@
 class projects::roomorama {
-  include icu4c
-  include phantomjs
   include imagemagick
   include elasticsearch
   include redis
