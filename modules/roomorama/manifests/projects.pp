@@ -1,4 +1,4 @@
-class developers::projects {
+class roomorama::projects {
   # Projects
   include projects::roomorama
   include projects::roomorama-team

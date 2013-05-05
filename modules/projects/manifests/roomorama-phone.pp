@@ -5,11 +5,11 @@ class projects::roomorama-phone {
 
   mysql::db { 'roomorama_phone': }
 
-  boxen::project { 'roomorama-phone':
+  roomorama::install-project { 'roomorama-phone':
     dotenv        => false,
     memcached     => false,
     elasticsearch => false,
-    mysql         => true,
+    mysql         => false,
     nginx         => true,
     redis         => true,
     ruby          => '1.9.3',

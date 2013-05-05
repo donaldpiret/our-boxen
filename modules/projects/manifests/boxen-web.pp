@@ -4,11 +4,11 @@ class projects::boxen-web {
 
   mysql::db { 'roomorama_boxen': }
 
-  boxen::project { 'boxen-web':
+  roomorama::install-project { 'boxen-web':
     dotenv        => false,
     memcached     => false,
     elasticsearch => false,
-    mysql         => true,
+    mysql         => false,
     nginx         => true,
     redis         => false,
     ruby          => '1.9.3',

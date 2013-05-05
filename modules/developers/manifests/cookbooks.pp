@@ -1,4 +1,0 @@
-class developers::cookbooks {
-  # Cookbooks
-
-}

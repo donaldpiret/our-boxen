@@ -28,6 +28,6 @@ class people::donaldpiret {
   }
 
   # Cookbooks
-  include developers::cookbooks
+  include roomorama::cookbooks
   include projects::roomorama-devtest
 }

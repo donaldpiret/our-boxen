@@ -9,11 +9,11 @@ class projects::roomorama {
   include mysql
   mysql::db { 'roomorama': }
 
-  boxen::project { 'roomorama':
+  roomorama::install-project { 'roomorama':
     dotenv        => false,
     memcached     => true,
     elasticsearch => true,
-    mysql         => true,
+    mysql         => false,
     nginx         => true,
     redis         => true,
     ruby          => '1.9.3',

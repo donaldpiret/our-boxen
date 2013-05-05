@@ -4,11 +4,11 @@ class projects::roomorama-feeds {
 
   mysql::db { 'roomorama_feeds': }
 
-  boxen::project { 'roomorama-feeds':
+  roomorama::install-project { 'roomorama-feeds':
     dotenv        => false,
     memcached     => false,
     elasticsearch => false,
-    mysql         => true,
+    mysql         => false,
     nginx         => true,
     redis         => false,
     ruby          => '1.9.3',

@@ -1,7 +1,7 @@
 class projects::roomorama-devtest {
 
 
-  boxen::project { 'roomorama-devtest':
+  roomorama::install-project { 'roomorama-devtest':
     dotenv        => false,
     memcached     => false,
     elasticsearch => false,

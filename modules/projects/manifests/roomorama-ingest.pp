@@ -4,11 +4,11 @@ class projects::roomorama-ingest {
 
   mysql::db { 'roomorama_ingest': }
 
-  boxen::project { 'roomorama-ingest':
+  roomorama::install-project { 'roomorama-ingest':
       dotenv        => false,
       memcached     => false,
       elasticsearch => false,
-      mysql         => true,
+      mysql         => false,
       nginx         => true,
       redis         => false,
       ruby          => '1.9.3',

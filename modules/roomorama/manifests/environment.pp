@@ -1,4 +1,4 @@
-class developers::environment {
+class roomorama::environment {
   # Rubymine
   include rubymine
 

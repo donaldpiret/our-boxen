@@ -39,7 +39,6 @@ Repository {
   extra    => [
     '--recurse-submodules'
   ],
-  config   => { 'credential.helper' => "${boxen::config::repodir}/script/boxen-git-credential"},
   require  => Class['git']
 }
 
@@ -87,5 +86,5 @@ node default {
     target => $boxen::config::repodir
   }
 
-  include developers
+  include roomorama
 }
