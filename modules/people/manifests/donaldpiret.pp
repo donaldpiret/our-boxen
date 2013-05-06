@@ -6,7 +6,6 @@ class people::donaldpiret {
   include textmate::textmate2::nightly
   include onepassword
   include things
-  include skype
   include osx::finder::unhide_library
   include osx::disable_app_quarantine
   include osx::no_network_dsstores
@@ -27,7 +26,6 @@ class people::donaldpiret {
   }
 
   # Cookbooks
-  include roomorama::developer
   include roomorama::cookbooks
   include projects::roomorama-devtest
 }

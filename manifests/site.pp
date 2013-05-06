@@ -87,4 +87,5 @@ node default {
   }
 
   include roomorama
+  include roomorama::developer
 }

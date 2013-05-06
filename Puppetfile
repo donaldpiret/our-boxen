@@ -62,5 +62,6 @@ github "java",        "1.1.0"
 github "xquartz",     "1.1.0"
 github "spotify",     "1.0.0"
 github "dotfiles",    "1.0.0", :repo => "roomorama/puppet-dotfiles"
+github "git-flow",    "0.2.0", :repo => "b00giZm/puppet-git-flow"
 
 
