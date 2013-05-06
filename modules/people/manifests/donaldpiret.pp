@@ -22,7 +22,6 @@ class people::donaldpiret {
     'alias.ci': value => 'commit';
     'alias.di': value => 'diff';
     'alias.lp': value => 'log -p';
-    'color.ui': value => 'true';
     'user.name': value => 'Donald Piret';
     'user.email': value => 'donald@donaldpiret.com';
   }
