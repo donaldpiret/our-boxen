@@ -7,4 +7,11 @@ class roomorama::environment {
 
   # Dropbox
   include dropbox
+
+  # Git configuration
+  include git
+  git::config::global {
+    'color.ui': value => 'true';
+    'push.default': value => 'simple';
+  }
 }
