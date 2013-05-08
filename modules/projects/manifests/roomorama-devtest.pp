@@ -1,6 +1,4 @@
 class projects::roomorama-devtest {
-
-
   roomorama::project { 'roomorama-devtest':
     dotenv        => false,
     memcached     => false,

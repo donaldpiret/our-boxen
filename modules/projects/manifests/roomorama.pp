@@ -1,10 +1,6 @@
 class projects::roomorama {
   include imagemagick
-  include elasticsearch
-  include redis
   include wkhtmltopdf
-  include memcached
-  include nginx
 
   roomorama::project { 'roomorama':
     dotenv        => false,

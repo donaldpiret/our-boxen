@@ -29,6 +29,10 @@
 #       modules/projects/templates/shared/nginx.conf.erb.
 #       If given a string, uses that template instead.
 #
+#     apache_passenger =>
+#       If true, ensures apache and passenger are installed, and apache listens
+#       on port 80. If set to any other number, uses that port instead.
+#
 #     postgresql =>
 #       If set to true, ensures postgresql is installed and creates databases
 #       named "${name}_development" and "${name}_test".
@@ -47,18 +51,19 @@
 
 define roomorama::project(
   $source,
-  $dir           = undef,
-  $dotenv        = undef,
-  $elasticsearch = undef,
-  $memcached     = undef,
-  $mongodb       = undef,
-  $mysql         = undef,
-  $nginx         = undef,
-  $nodejs        = undef,
-  $postgresql    = undef,
-  $redis         = undef,
-  $ruby          = undef,
-  $server_name   = "${name}.dev",
+  $dir              = undef,
+  $dotenv           = undef,
+  $elasticsearch    = undef,
+  $memcached        = undef,
+  $mongodb          = undef,
+  $mysql            = undef,
+  $nginx            = undef,
+  $apache_passenger = undef,
+  $nodejs           = undef,
+  $postgresql       = undef,
+  $redis            = undef,
+  $ruby             = undef,
+  $server_name      = "${name}.dev",
 ) {
   include boxen::config
 

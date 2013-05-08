@@ -1,8 +1,4 @@
 class projects::roomorama-phone {
-  include mysql
-  include redis
-  include nginx
-
   roomorama::project { 'roomorama-phone':
     dotenv        => false,
     memcached     => false,

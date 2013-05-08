@@ -1,7 +1,4 @@
 class projects::roomorama-team {
-  include mysql
-  include nginx
-
   roomorama::project { 'roomorama-team':
     dotenv        => false,
     memcached     => false,
