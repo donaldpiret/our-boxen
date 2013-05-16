@@ -166,7 +166,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: roomorama/puppet-dotfiles
   specs:
-    dotfiles (1.0.0)
+    dotfiles (1.0.8)
 
 GITHUBTARBALL
   remote: roomorama/puppet-ohmyzsh
@@ -187,7 +187,7 @@ DEPENDENCIES
   boxen (= 2.1.0)
   chrome (= 1.1.0)
   dnsmasq (= 1.0.0)
-  dotfiles (= 1.0.0)
+  dotfiles (= 1.0.8)
   dropbox (= 1.1.0)
   elasticsearch (= 1.0.0)
   evernote (= 1.0.1)
