@@ -65,4 +65,5 @@ github "evernote",    "1.0.1", :repo => "jasonamyers/puppet-evernote"
 github "dotfiles",    "1.0.8", :repo => "roomorama/puppet-dotfiles"
 github "git-flow",    "0.2.0", :repo => "b00giZm/puppet-git-flow"
 github "statsd",      "1.0.2"
+github "phantomjs",   "1.0.0"
 
