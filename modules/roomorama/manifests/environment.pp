@@ -18,4 +18,10 @@ class roomorama::environment {
     'push.default': value => 'simple';
   }
   include git-flow
+
+  File <| title == "${git::config::configdir}/gitignore" |> {
+    source => undef,
+    content => template('roomorama/shared/gitignore.erb'),
+    require => File["${git::config::configdir}"]
+  }
 }
