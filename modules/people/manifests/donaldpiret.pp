@@ -13,8 +13,10 @@ class people::donaldpiret {
   include osx::no_network_dsstores
 
   # Dotfiles
-  # include dotfiles
-  # dotfiles { 'donaldpiret': }
+  dotfiles { 'donald': 
+  	gituser	=>	'donaldpiret',
+	homedir => "/Users/donald";
+  }
 
   # Git configuration
   include git

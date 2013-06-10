@@ -94,6 +94,11 @@ GITHUBTARBALL
     osx (1.1.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-phantomjs
+  specs:
+    phantomjs (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-propane
   specs:
     propane (1.0.0)
@@ -176,7 +181,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: roomorama/puppet-dotfiles
   specs:
-    dotfiles (1.0.0)
+    dotfiles (1.0.8)
 
 GITHUBTARBALL
   remote: roomorama/puppet-ohmyzsh
@@ -197,7 +202,7 @@ DEPENDENCIES
   boxen (= 2.1.0)
   chrome (= 1.1.0)
   dnsmasq (= 1.0.0)
-  dotfiles (= 1.0.0)
+  dotfiles (= 1.0.8)
   dropbox (= 1.1.0)
   elasticsearch (= 1.0.0)
   evernote (= 1.0.1)
@@ -217,6 +222,7 @@ DEPENDENCIES
   ohmyzsh (= 1.0.0)
   onepassword (= 1.0.0)
   osx (= 1.1.0)
+  phantomjs (= 1.0.0)
   propane (= 1.0.0)
   redis (= 1.0.0)
   repository (= 2.0.2)
