@@ -11,6 +11,8 @@ class people::donaldpiret {
   include osx::finder::unhide_library
   include osx::disable_app_quarantine
   include osx::no_network_dsstores
+  include python
+  include nodejs::0-8
 
   # Dotfiles
   dotfiles { 'donald': 
