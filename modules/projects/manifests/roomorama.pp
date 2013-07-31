@@ -11,6 +11,6 @@ class projects::roomorama {
     redis         => true,
     ruby          => '1.9.3',
     source        => 'https://github.com/roomorama/roomorama.git',
-    server_aliases => 'api.roomorama.dev'
+    server_aliases => 'api.roomorama.dev translate.roomorama.dev'
   }
 }
