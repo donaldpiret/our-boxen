@@ -18,4 +18,7 @@ class roomorama::environment {
     'push.default': value => 'simple';
   }
   include git-flow
+
+  include osx::finder::unhide_library
+  include osx::disable_app_quarantine
 }

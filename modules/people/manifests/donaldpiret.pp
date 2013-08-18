@@ -8,9 +8,8 @@ class people::donaldpiret {
   include things
   include spotify
   #include evernote
-  include osx::finder::unhide_library
-  include osx::disable_app_quarantine
   include osx::no_network_dsstores
+  include scala
 
   # Dotfiles
   # include dotfiles

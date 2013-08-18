@@ -65,4 +65,4 @@ github "evernote",    "1.0.1", :repo => "jasonamyers/puppet-evernote"
 github "dotfiles",    "1.0.0", :repo => "roomorama/puppet-dotfiles"
 github "git-flow",    "0.2.0", :repo => "b00giZm/puppet-git-flow"
 github "statsd",      "1.0.2"
-
+github "scala",       "1.0.0", :repo => "steinim/puppet-scala"
