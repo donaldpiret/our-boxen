@@ -10,10 +10,14 @@ class people::donaldpiret {
   #include evernote
   include osx::no_network_dsstores
   include scala
+  include python
+  include nodejs::0-8
 
   # Dotfiles
-  # include dotfiles
-  # dotfiles { 'donaldpiret': }
+  dotfiles { 'donald': 
+  	gituser	=>	'donaldpiret',
+	homedir => "/Users/donald";
+  }
 
   # Git configuration
   include git

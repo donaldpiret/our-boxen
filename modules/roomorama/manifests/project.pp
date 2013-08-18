@@ -64,6 +64,7 @@ define roomorama::project(
   $redis            = undef,
   $ruby             = undef,
   $server_name      = "${name}.dev",
+  $server_aliases   = false,
 ) {
   include boxen::config
 

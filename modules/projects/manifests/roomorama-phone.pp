@@ -1,8 +1,5 @@
 class projects::roomorama-phone {
   roomorama::project { 'roomorama-phone':
-    dotenv        => false,
-    memcached     => false,
-    elasticsearch => false,
     mysql         => true,
     nginx         => true,
     redis         => true,
