@@ -11,7 +11,7 @@ class people::donaldpiret {
   include osx::no_network_dsstores
   include scala
   include python
-  include nodejs::0-8
+  #include nodejs::v0-10
 
   # Dotfiles
   dotfiles { 'donald': 

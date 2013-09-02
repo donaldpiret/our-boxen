@@ -15,7 +15,6 @@ class roomorama::environment {
   include git
   git::config::global {
     'color.ui': value => 'true';
-    'push.default': value => 'simple';
   }
   include git-flow
 
