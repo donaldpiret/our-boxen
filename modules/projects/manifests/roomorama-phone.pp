@@ -3,7 +3,8 @@ class projects::roomorama-phone {
     mysql         => true,
     nginx         => true,
     redis         => true,
-    ruby          => '1.9.3',
-    source        => 'https://github.com/roomorama/roomorama-phone.git'
+    ruby          => '2.0.0',
+    source        => 'https://github.com/roomorama/roomorama-phone.git',
+    server_aliases => 'phone.roomorama.dev'
   }
 }
