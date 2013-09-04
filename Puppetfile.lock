@@ -260,8 +260,9 @@ DEPENDENCIES
   textmate (>= 1.1.0)
   things (>= 1.0.0)
   wget (>= 0.0.1)
+  wget (>= 0.0.1)
   wkhtmltopdf (>= 1.0.0)
-  xquartz (= 1.1.0)
   xquartz (>= 1.1.0)
+  xquartz (= 1.1.0)
   zsh (>= 1.0.0)
 

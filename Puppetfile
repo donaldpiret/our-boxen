@@ -71,4 +71,4 @@ github "wget", ">= 0.0.1"
 github "scala", ">= 0.0.1", :repo => "steinim/puppet-scala"
 github "phantomjs"
 github "python",      ">= 1.2.0"
-
+github "wget",        ">= 0.0.1"
