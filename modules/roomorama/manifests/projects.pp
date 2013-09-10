@@ -4,5 +4,5 @@ class roomorama::projects {
   include projects::roomorama-team
   include projects::roomorama-phone
   include projects::roomorama-ingest
-  include projects::roomorama-feeds
+  include projects::roomorama-feeder
 }
