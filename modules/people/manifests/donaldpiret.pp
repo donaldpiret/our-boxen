@@ -9,7 +9,7 @@ class people::donaldpiret {
   include spotify
   #include evernote
   include osx::no_network_dsstores
-  include scala
+  #include scala
   include python
   #include nodejs::v0-10
 
