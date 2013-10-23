@@ -59,11 +59,6 @@ GITHUBTARBALL
     imagemagick (1.2.1)
 
 GITHUBTARBALL
-  remote: boxen/puppet-java
-  specs:
-    java (1.1.2)
-
-GITHUBTARBALL
   remote: boxen/puppet-memcached
   specs:
     memcached (1.2.0)
@@ -182,6 +177,11 @@ GITHUBTARBALL
   remote: jasonamyers/puppet-evernote
   specs:
     evernote (2.0.3)
+
+GITHUBTARBALL
+  remote: octanner/puppet-java
+  specs:
+    java (1.1.7)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
