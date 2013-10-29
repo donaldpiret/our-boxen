@@ -28,8 +28,16 @@ How do you do it?
 sudo mkdir -p /opt/boxen
 sudo chown ${USER}:admin /opt/boxen
 git clone https://github.com/roomorama/roomorama-boxen.git /opt/boxen/repo
+
 cd /opt/boxen/repo
 script/boxen
+```
+
+Keep in mind this requires you to encrypt your hard drive by default.
+If you do not want to do encrypt your hard drive, you can use the `--no-fde`.
+
+```
+script/boxen --no-fde
 ```
 
 It should run successfully, and should tell you to source a shell script
@@ -70,4 +78,5 @@ The Roomorama Boxen provides the following by default:
 ### Creating a personal module
 
 You can modify your personal user module under modules/people/manifests/[GITHUBUSERNAME].pp
+
 
