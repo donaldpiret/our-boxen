@@ -1,12 +1,9 @@
 GITHUBTARBALL
-<<<<<<< HEAD
   remote: b00giZm/puppet-git-flow
   specs:
     git-flow (0.2.0)
 
 GITHUBTARBALL
-=======
->>>>>>> e2e184f80d2c40b0ec3fe93064bc989c3e59a0ca
   remote: boxen/puppet-autoconf
   specs:
     autoconf (1.0.0)
@@ -15,14 +12,11 @@ GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.0.2)
-<<<<<<< HEAD
 
 GITHUBTARBALL
   remote: boxen/puppet-chrome
   specs:
     chrome (1.1.1)
-=======
->>>>>>> e2e184f80d2c40b0ec3fe93064bc989c3e59a0ca
 
 GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
@@ -58,7 +52,6 @@ GITHUBTARBALL
   remote: boxen/puppet-hub
   specs:
     hub (1.0.3)
-<<<<<<< HEAD
 
 GITHUBTARBALL
   remote: boxen/puppet-imagemagick
@@ -74,8 +67,6 @@ GITHUBTARBALL
   remote: boxen/puppet-mysql
   specs:
     mysql (1.1.3)
-=======
->>>>>>> e2e184f80d2c40b0ec3fe93064bc989c3e59a0ca
 
 GITHUBTARBALL
   remote: boxen/puppet-nginx
@@ -88,7 +79,6 @@ GITHUBTARBALL
     nodejs (3.2.9)
 
 GITHUBTARBALL
-<<<<<<< HEAD
   remote: boxen/puppet-onepassword
   specs:
     onepassword (1.0.2)
@@ -124,13 +114,11 @@ GITHUBTARBALL
     redis (1.0.0)
 
 GITHUBTARBALL
-=======
   remote: boxen/puppet-openssl
   specs:
     openssl (1.0.0)
 
 GITHUBTARBALL
->>>>>>> e2e184f80d2c40b0ec3fe93064bc989c3e59a0ca
   remote: boxen/puppet-repository
   specs:
     repository (2.2.0)
@@ -139,7 +127,6 @@ GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
     ruby (6.3.4)
-<<<<<<< HEAD
 
 GITHUBTARBALL
   remote: boxen/puppet-spotify
@@ -155,8 +142,6 @@ GITHUBTARBALL
   remote: boxen/puppet-sublime_text_2
   specs:
     sublime_text_2 (1.1.2)
-=======
->>>>>>> e2e184f80d2c40b0ec3fe93064bc989c3e59a0ca
 
 GITHUBTARBALL
   remote: boxen/puppet-sudo
@@ -164,7 +149,6 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
-<<<<<<< HEAD
   remote: boxen/puppet-textmate
   specs:
     textmate (1.1.0)
@@ -180,14 +164,11 @@ GITHUBTARBALL
     wkhtmltopdf (1.0.0)
 
 GITHUBTARBALL
-=======
->>>>>>> e2e184f80d2c40b0ec3fe93064bc989c3e59a0ca
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.1.0)
 
 GITHUBTARBALL
-<<<<<<< HEAD
   remote: boxen/puppet-zsh
   specs:
     zsh (1.0.0)
@@ -208,8 +189,6 @@ GITHUBTARBALL
     java (1.1.7)
 
 GITHUBTARBALL
-=======
->>>>>>> e2e184f80d2c40b0ec3fe93064bc989c3e59a0ca
   remote: puppetlabs/puppetlabs-inifile
   specs:
     inifile (1.0.0)
@@ -218,7 +197,6 @@ GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
   specs:
     stdlib (4.1.0)
-<<<<<<< HEAD
 
 GITHUBTARBALL
   remote: roomorama/puppet-dotfiles
@@ -244,13 +222,10 @@ GITHUBTARBALL
   remote: steinim/puppet-scala
   specs:
     scala (0.0.6)
-=======
->>>>>>> e2e184f80d2c40b0ec3fe93064bc989c3e59a0ca
 
 DEPENDENCIES
   autoconf (= 1.0.0)
   boxen (= 3.0.2)
-<<<<<<< HEAD
   chrome (>= 1.1.0)
   dnsmasq (= 1.0.0)
   dotfiles (>= 1.0.8)
@@ -295,20 +270,4 @@ DEPENDENCIES
   xquartz (>= 1.1.0)
   xquartz (= 1.1.0)
   zsh (>= 1.0.0)
-=======
-  dnsmasq (= 1.0.0)
-  gcc (= 2.0.1)
-  git (= 1.2.5)
-  homebrew (= 1.4.1)
-  hub (= 1.0.3)
-  inifile (= 1.0.0)
-  nginx (= 1.4.2)
-  nodejs (= 3.2.9)
-  openssl (= 1.0.0)
-  repository (= 2.2.0)
-  ruby (= 6.3.4)
-  stdlib (= 4.1.0)
-  sudo (= 1.0.0)
-  xquartz (= 1.1.0)
->>>>>>> e2e184f80d2c40b0ec3fe93064bc989c3e59a0ca
 
