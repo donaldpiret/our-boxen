@@ -9,7 +9,7 @@ class roomorama::developer {
   }
 
   # PhantomJS
-  include phantomjs
+  #include phantomjs
 
   # Projects
   include roomorama::projects
