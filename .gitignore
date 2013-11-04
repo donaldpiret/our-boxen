@@ -6,6 +6,7 @@
 /.tmp
 /.projects
 /.env
+/.tmp
 /bin
 /config/local.rb
 /log
@@ -13,3 +14,5 @@
 /shared/*
 !/shared/README.md
 /vendor/gems/
+/vendor/cache/
+/vendor/puppet/cache/
