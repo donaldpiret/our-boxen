@@ -67,7 +67,7 @@ The Roomorama Boxen provides the following by default:
 * Full Disk Encryption requirement
 * Ruby 1.9.3
 * Ruby 2.0.0
-* Ack
+* ack
 * Findutils
 * GNU-Tar
 * MySQL
