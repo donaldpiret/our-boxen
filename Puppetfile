@@ -64,7 +64,7 @@ github "xquartz",    "1.1.0"
 # https://github.com/boxen.
 github "osx",       ">= 1.0.0"
 github "mysql",     ">= 1.1.3"
-github "rubymine",  ">= 1.0.3", :repo => "roomorama/puppet-rubymine"
+github "rubymine",  ">= 1.0.3"
 github "textmate",  ">= 1.1.0"
 github "wkhtmltopdf", ">= 1.0.0"
 github "onepassword", ">= 1.0.2"
