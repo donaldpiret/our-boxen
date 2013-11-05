@@ -48,7 +48,7 @@ GEM
       rake
       rspec (>= 2.9.0)
       rspec-puppet (>= 0.1.1)
-    rake (10.0.3)
+    rake (10.1.0)
     rbvmomi (1.6.0)
       builder
       nokogiri (>= 1.4.1)
@@ -85,6 +85,6 @@ DEPENDENCIES
   puppet (= 3.3.1)
   puppet-lint (= 0.3.2)
   puppetlabs_spec_helper (= 0.4.1)
-  rake (= 10.0.3)
+  rake
   rbvmomi
   rspec-puppet (= 0.1.6)

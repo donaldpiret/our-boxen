@@ -8,7 +8,7 @@ gem "librarian-puppet",       "~> 0.9.9"
 gem "puppet",                 "3.3.1"
 gem "puppet-lint",            "0.3.2"
 gem "puppetlabs_spec_helper", "0.4.1"
-gem "rake",                   "10.0.3"
+gem "rake"
 gem "rspec-puppet",           "0.1.6"
 
 group :development do
