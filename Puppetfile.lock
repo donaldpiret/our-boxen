@@ -189,11 +189,6 @@ GITHUBTARBALL
     things (1.0.0)
 
 GITHUBTARBALL
-  remote: jasonamyers/puppet-evernote
-  specs:
-    evernote (2.0.3)
-
-GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
     inifile (1.0.0)
@@ -202,6 +197,11 @@ GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
   specs:
     stdlib (4.1.0)
+
+GITHUBTARBALL
+  remote: roomorama/puppet-copy
+  specs:
+    copy (0.0.1)
 
 GITHUBTARBALL
   remote: roomorama/puppet-dotfiles
@@ -231,11 +231,11 @@ GITHUBTARBALL
 DEPENDENCIES
   boxen (= 3.3.4)
   chrome (>= 1.1.0)
+  copy (>= 0.0.1)
   dnsmasq (= 1.0.0)
   dotfiles (>= 1.0.8)
   dropbox (>= 1.1.0)
   elasticsearch (>= 1.0.0)
-  evernote (>= 2.0.3)
   foreman (= 1.0.0)
   gcc (= 2.0.1)
   git (= 1.2.5)
