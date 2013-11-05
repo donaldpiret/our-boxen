@@ -85,6 +85,6 @@ DEPENDENCIES
   puppet (= 3.3.1)
   puppet-lint (= 0.3.2)
   puppetlabs_spec_helper (= 0.4.1)
-  rake
+  rake (= 10.1.0)
   rbvmomi
   rspec-puppet (= 0.1.6)
