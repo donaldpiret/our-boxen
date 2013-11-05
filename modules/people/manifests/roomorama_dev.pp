@@ -6,7 +6,7 @@ include zsh
   include textmate::textmate2::nightly
   include sublime_text_2
 
-  dotfiles { 'roomorama_dev':
+  dotfiles { 'roomorama':
     gituser	=>	'roomorama',
     homedir => "/Users/roomorama";
   }
