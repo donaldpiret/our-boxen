@@ -134,6 +134,11 @@ GITHUBTARBALL
     ruby (6.7.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-rubymine
+  specs:
+    rubymine (1.0.3)
+
+GITHUBTARBALL
   remote: boxen/puppet-spotify
   specs:
     spotify (1.0.1)
@@ -207,11 +212,6 @@ GITHUBTARBALL
   remote: roomorama/puppet-java
   specs:
     java (1.1.8)
-
-GITHUBTARBALL
-  remote: roomorama/puppet-rubymine
-  specs:
-    rubymine (1.0.3)
 
 GITHUBTARBALL
   remote: roomorama/puppet-skype
