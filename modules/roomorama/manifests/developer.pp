@@ -2,6 +2,7 @@ class roomorama::developer {
   # Rubymine
   include rubymine
   include mysql
+  include copy
 
   File <| title == "${git::config::configdir}/gitignore" |> {
     source => undef,
