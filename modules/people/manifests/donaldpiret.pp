@@ -13,6 +13,11 @@ class people::donaldpiret {
   include python
   #include nodejs::v0-10
 
+  # Packages
+  package {
+    'direnv': ensure => present
+  }
+
   # Dotfiles
   dotfiles { 'donald': 
   	gituser	=>	'donaldpiret',
