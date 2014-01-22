@@ -1,4 +1,18 @@
 class roomorama::developer {
+  # Ruby versions
+  ruby::version { '1.9.3': }
+  ruby::version { '2.0.0': }
+  ruby::version { '2.1.0': }
+
+  class { 'ruby::global': version => '2.0.0' }
+
+  # Git configuration
+  include git
+  git::config::global {
+    'color.ui': value => 'true';
+  }
+  include git-flow
+
   # Rubymine
   include rubymine
   include mysql

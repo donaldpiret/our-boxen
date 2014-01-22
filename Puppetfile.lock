@@ -51,7 +51,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
-    homebrew (1.5.1)
+    homebrew (1.6.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-hub
@@ -62,6 +62,11 @@ GITHUBTARBALL
   remote: boxen/puppet-imagemagick
   specs:
     imagemagick (1.2.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-libpng
+  specs:
+    libpng (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-memcached
@@ -119,6 +124,11 @@ GITHUBTARBALL
     python (1.3.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-qt
+  specs:
+    qt (1.2.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-redis
   specs:
     redis (1.1.0)
@@ -131,7 +141,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (6.7.2)
+    ruby (7.1.6)
 
 GITHUBTARBALL
   remote: boxen/puppet-rubymine
@@ -171,7 +181,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-wkhtmltopdf
   specs:
-    wkhtmltopdf (1.1.0)
+    wkhtmltopdf (1.2.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-xquartz
@@ -241,11 +251,12 @@ DEPENDENCIES
   git (= 1.2.5)
   git-flow (>= 0.2.0)
   go (= 1.0.0)
-  homebrew (= 1.5.1)
+  homebrew (= 1.6.0)
   hub (= 1.0.3)
   imagemagick (>= 1.2.1)
   inifile (= 1.0.0)
   java (>= 1.1.8)
+  libpng (= 1.0.0)
   memcached (>= 1.2.0)
   mysql (>= 1.1.3)
   nginx (= 1.4.2)
@@ -254,14 +265,15 @@ DEPENDENCIES
   onepassword (>= 1.0.2)
   openssl (= 1.0.0)
   osx (>= 1.0.0)
-  phantomjs (= 2.0.2)
   phantomjs (>= 0)
+  phantomjs (= 2.0.2)
   pkgconfig (= 1.0.0)
   propane (>= 0)
   python (>= 1.2.0)
+  qt (= 1.2.2)
   redis (>= 1.0.0)
   repository (= 2.2.0)
-  ruby (= 6.7.2)
+  ruby (= 7.1.6)
   rubymine (>= 1.0.3)
   scala (>= 0.0.1)
   skype (>= 1.0.4)
@@ -274,7 +286,7 @@ DEPENDENCIES
   things (>= 1.0.0)
   wget (>= 0.0.1)
   wget (>= 0.0.1)
-  wkhtmltopdf (>= 1.0.0)
+  wkhtmltopdf (>= 1.2.1)
   xquartz (= 1.1.0)
   xquartz (>= 1.1.0)
   zsh (>= 1.0.0)

@@ -1,4 +1,5 @@
 class roomorama::environment {
+
   # Chrome
   include chrome
 
@@ -10,13 +11,6 @@ class roomorama::environment {
 
   # Skype
   include skype
-
-  # Git configuration
-  include git
-  git::config::global {
-    'color.ui': value => 'true';
-  }
-  include git-flow
 
   include osx::finder::unhide_library
   include osx::disable_app_quarantine
