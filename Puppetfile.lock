@@ -149,6 +149,11 @@ GITHUBTARBALL
     rubymine (1.0.3)
 
 GITHUBTARBALL
+  remote: boxen/puppet-skype
+  specs:
+    skype (1.0.8)
+
+GITHUBTARBALL
   remote: boxen/puppet-spotify
   specs:
     spotify (1.0.1)
@@ -224,11 +229,6 @@ GITHUBTARBALL
     java (1.1.8)
 
 GITHUBTARBALL
-  remote: roomorama/puppet-skype
-  specs:
-    skype (1.0.4)
-
-GITHUBTARBALL
   remote: samjsharpe/puppet-ohmyzsh
   specs:
     ohmyzsh (1.0.0)
@@ -276,7 +276,7 @@ DEPENDENCIES
   ruby (= 7.1.6)
   rubymine (>= 1.0.3)
   scala (>= 0.0.1)
-  skype (>= 1.0.4)
+  skype (>= 1.0.8)
   spotify (>= 1.0.1)
   statsd (>= 1.0.2)
   stdlib (= 4.1.0)
