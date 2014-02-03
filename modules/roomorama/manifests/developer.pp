@@ -6,6 +6,11 @@ class roomorama::developer {
 
   class { 'ruby::global': version => '2.0.0' }
 
+  ruby::plugin { 'rbenv-gem-rehash':
+    ensure => 'v1.1.0',
+    source  => 'roomorama/rbenv-gem-rehash'
+  }
+
   # Git configuration
   include git
   git::config::global {

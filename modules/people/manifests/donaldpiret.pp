@@ -38,4 +38,17 @@ class people::donaldpiret {
   # Cookbooks
   include roomorama::cookbooks
   include projects::roomorama-devtest
+
+  # Some personal projects
+  roomorama::project { 'donaldpiret.com':
+    dotenv        => false,
+    memcached     => false,
+    elasticsearch => false,
+    mysql         => true,
+    nginx         => true,
+    redis         => false,
+    ruby          => '2.0.0',
+    source        => 'https://github.com/donaldpiret/donaldpiret.com.git',
+    server_aliases => 'donaldpiret.dev'
+  }
 }
