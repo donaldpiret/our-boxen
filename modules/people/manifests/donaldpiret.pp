@@ -35,9 +35,10 @@ class people::donaldpiret {
     'user.email': value => 'donald@donaldpiret.com';
   }
 
-  # Cookbooks
+  # Other projects
   include roomorama::cookbooks
   include projects::roomorama-devtest
+  include projects::translate
 
   # Some personal projects
   roomorama::project { 'donaldpiret.com':
