@@ -12,6 +12,8 @@ class people::donaldpiret {
   #include scala
   include python
   #include nodejs::v0-10
+  # Postgresql
+  include postgresql
 
   # Packages
   package {
