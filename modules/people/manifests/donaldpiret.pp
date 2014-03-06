@@ -12,6 +12,8 @@ class people::donaldpiret {
   #include scala
   include python
   #include nodejs::v0-10
+  # Postgresql
+  include postgresql
 
   # Packages
   package {
@@ -35,7 +37,21 @@ class people::donaldpiret {
     'user.email': value => 'donald@donaldpiret.com';
   }
 
-  # Cookbooks
+  # Other projects
   include roomorama::cookbooks
   include projects::roomorama-devtest
+  include projects::translate
+
+  # Some personal projects
+  roomorama::project { 'donaldpiret.com':
+    dotenv        => false,
+    memcached     => false,
+    elasticsearch => false,
+    mysql         => true,
+    nginx         => true,
+    redis         => false,
+    ruby          => '2.0.0',
+    source        => 'https://github.com/donaldpiret/donaldpiret.com.git',
+    server_aliases => 'donaldpiret.dev'
+  }
 }
