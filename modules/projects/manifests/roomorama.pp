@@ -9,7 +9,7 @@ class projects::roomorama {
     mysql         => true,
     nginx         => true,
     redis         => true,
-    ruby          => '2.0.0',
+    ruby          => '2.1.1',
     source        => 'https://github.com/roomorama/roomorama.git',
     server_aliases => 'api.roomorama.dev translate.roomorama.dev'
   }

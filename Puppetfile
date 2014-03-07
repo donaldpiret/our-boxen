@@ -35,7 +35,7 @@ end
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen", ">= 3.4.2"
+github "boxen", "3.3.4"
 
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
@@ -70,14 +70,14 @@ github "rubymine",    ">= 1.1.0"
 github "textmate",    ">= 1.1.0"
 github "wkhtmltopdf", ">= 1.2.1"
 github "onepassword", ">= 1.1.0"
-github "redis",       ">= 3.0.3"
+github "redis",       "~> 2.1.0", :repo => "grosser/puppet-redis" # https://github.com/boxen/puppet-redis/pull/16
 github "zsh",         ">= 1.0.0"
 github "ohmyzsh",     ">= 1.0.0", :repo => "samjsharpe/puppet-ohmyzsh"
 github "chrome",      ">= 1.1.2"
 github "imagemagick", ">= 1.2.1"
 github "elasticsearch", ">= 2.1.0"
 github "things",      ">= 1.0.0", :repo => "donaldpiret/puppet-things"
-github "memcached",   ">= 2.0.0"
+github "memcached",   "~> 1.4.0"
 github "skype",       ">= 1.0.8"
 github "dropbox",     ">= 1.2.0"
 github "sublime_text_2", ">= 1.1.2"
