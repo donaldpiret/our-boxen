@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "boxen", "~> 2.3.0"
+gem "boxen", "~> 2.0.2"
 gem "open4", "~> 1.3"
 gem "dotenv"
 gem "hiera",                  "~> 1.1"

@@ -1,3 +1,4 @@
+include boxen::config
 require boxen::environment
 require homebrew
 require gcc

@@ -54,4 +54,17 @@ class people::donaldpiret {
     source        => 'https://github.com/donaldpiret/donaldpiret.com.git',
     server_aliases => 'donaldpiret.dev'
   }
+
+  roomorama::project { 'trainersvault':
+    dotenv        => false,
+    memcached     => false,
+    elasticsearch => false,
+    mysql         => false,
+    postgresql    => true,
+    nginx         => true,
+    redis         => true,
+    ruby          => '2.1.1',
+    source        => 'https://github.com/trainers/tv-gamma.git',
+    server_aliases => 'www.trainersvault.dev'
+  }
 }
