@@ -9,6 +9,11 @@ GITHUBTARBALL
     boxen (3.3.4)
 
 GITHUBTARBALL
+  remote: boxen/puppet-caffeine
+  specs:
+    caffeine (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-chrome
   specs:
     chrome (1.1.2)
@@ -27,6 +32,11 @@ GITHUBTARBALL
   remote: boxen/puppet-elasticsearch
   specs:
     elasticsearch (2.1.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-evernote
+  specs:
+    evernote (2.0.5)
 
 GITHUBTARBALL
   remote: boxen/puppet-foreman
@@ -250,12 +260,14 @@ GITHUBTARBALL
 
 DEPENDENCIES
   boxen (= 3.3.4)
+  caffeine (>= 1.0.0)
   chrome (>= 1.1.2)
   copy (>= 0.0.1)
   dnsmasq (>= 1.0.1)
   dotfiles (>= 1.0.8)
   dropbox (>= 1.2.0)
   elasticsearch (>= 2.1.0)
+  evernote (>= 2.0.5)
   foreman (>= 1.1.0)
   gcc (>= 2.0.99)
   git (>= 1.3.7)
@@ -275,8 +287,8 @@ DEPENDENCIES
   onepassword (>= 1.1.0)
   openssl (>= 1.0.0)
   osx (>= 2.2.2)
-  phantomjs (>= 2.1.0)
   phantomjs (>= 2.0.2)
+  phantomjs (>= 2.1.0)
   pkgconfig (>= 1.0.0)
   postgresql (>= 3.0.1)
   propane (>= 1.0.0)
@@ -300,5 +312,5 @@ DEPENDENCIES
   wget (>= 1.0.1)
   wkhtmltopdf (>= 1.2.1)
   xquartz (>= 1.1.1)
-  xquartz (>= 1.1.0)
   zsh (>= 1.0.0)
+
