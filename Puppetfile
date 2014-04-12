@@ -26,12 +26,6 @@ def dev(name, *args)
   mod name, :path => "#{ENV['HOME']}/src/boxen/puppet-#{name}"
 end
 
-def roomorama_github(name, version, options = nil)
-  options ||= {}
-  options[:repo] ||= "roomorama/puppet-#{name}"
-  mod name, version, :github_tarball => options[:repo]
-end
-
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 

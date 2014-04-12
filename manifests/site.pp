@@ -58,6 +58,8 @@ node default {
   include git
   include hub
   include nginx
+  include mysql
+  include postgresql
   #include nvm
 
   # fail if FDE is not enabled
@@ -71,10 +73,12 @@ node default {
   #include nodejs::v0_8
   include nodejs::v0_10
 
-  # default ruby versions
-  #include ruby::1_8_7
-  #include ruby::1_9_2
   include ruby
+  # Ruby versions
+  ruby::version { '1.9.3': }
+  ruby::version { '2.0.0': }
+  ruby::version { '2.1.1': }
+  ruby::global { '2.1.1' }
 
   # common, useful packages
   package {
@@ -85,11 +89,8 @@ node default {
     ]:
   }
 
-  file { "${boxen::config::srcdir}/roomorama-boxen":
+  file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
     target => $boxen::config::repodir
   }
-
-  include roomorama
-  include roomorama::developer
 }
