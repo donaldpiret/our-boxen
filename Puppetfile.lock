@@ -49,6 +49,11 @@ GITHUBTARBALL
     gcc (2.0.100)
 
 GITHUBTARBALL
+  remote: boxen/puppet-git
+  specs:
+    git (2.3.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-go
   specs:
     go (2.0.1)
@@ -214,11 +219,6 @@ GITHUBTARBALL
     copy (0.0.1)
 
 GITHUBTARBALL
-  remote: donaldpiret/puppet-git
-  specs:
-    git (2.3.1)
-
-GITHUBTARBALL
   remote: donaldpiret/puppet-things
   specs:
     things (1.0.0)
@@ -313,7 +313,7 @@ DEPENDENCIES
   sysctl (>= 1.0.1)
   textmate (>= 1.1.0)
   things (>= 1.0.0)
-  wget (>= 0.0.1)
+  wget (>= 1.0.1)
   wget (>= 1.0.1)
   wkhtmltopdf (>= 1.2.1)
   xquartz (>= 1.1.1)
