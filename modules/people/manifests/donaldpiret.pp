@@ -43,7 +43,7 @@ class people::donaldpiret {
   include projects::translate
 
   # Some personal projects
-  roomorama::project { 'donaldpiret.com':
+  roomorama::project { 'donaldpiret':
     dotenv        => false,
     memcached     => false,
     elasticsearch => false,
@@ -53,5 +53,18 @@ class people::donaldpiret {
     ruby          => '2.0.0',
     source        => 'https://github.com/donaldpiret/donaldpiret.com.git',
     server_aliases => 'donaldpiret.dev'
+  }
+
+  roomorama::project { 'trainersvault':
+    dotenv        => false,
+    memcached     => false,
+    elasticsearch => false,
+    mysql         => false,
+    postgresql    => true,
+    nginx         => true,
+    redis         => true,
+    ruby          => '2.1.1',
+    source        => 'https://github.com/trainers/tv-gamma.git',
+    server_aliases => 'trainersvault.dev'
   }
 }
