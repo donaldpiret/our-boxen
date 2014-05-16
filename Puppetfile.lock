@@ -51,7 +51,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-git
   specs:
-    git (2.3.0)
+    git (2.3.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-go
@@ -275,7 +275,7 @@ DEPENDENCIES
   evernote (>= 2.0.5)
   foreman (>= 1.2.0)
   gcc (>= 2.0.100)
-  git (>= 2.3.0)
+  git (>= 2.3.1)
   git-flow (>= 0.2.0)
   go (>= 2.0.1)
   homebrew (>= 1.6.2)
@@ -313,7 +313,7 @@ DEPENDENCIES
   sysctl (>= 1.0.1)
   textmate (>= 1.1.0)
   things (>= 1.0.0)
-  wget (>= 0.0.1)
+  wget (>= 1.0.1)
   wget (>= 1.0.1)
   wkhtmltopdf (>= 1.2.1)
   xquartz (>= 1.1.1)
