@@ -5,7 +5,7 @@
 # ENV['BOXEN_HOME'] = '/opt/boxen'
 
 # Change the repo boxen will use.
-ENV['BOXEN_REPO_NAME'] = 'roomorama/roomorama-boxen'
+ENV['BOXEN_REPO_NAME'] = 'donaldpiret/our-boxen'
 
 # Change the location of the projects
 ENV['BOXEN_SRC_DIR'] = "/Users/#{ENV["USER"]}/Projects"
