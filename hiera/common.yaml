@@ -1,15 +1,19 @@
 ---
-  ruby::build::ensure: "v20140517"
-  ruby::rbenv::ensure: "v0.4.0"
-  # See https://github.com/boxen/puppet-ruby for docs
-  ruby::global::version: "2.1.2"
-  ruby::rbenv_plugins:
-    rbenv-vars:
-      ensure: v1.2.0
-      source: sstephenson/rbenv-vars
-    ruby-build:
-      ensure: v20140514
-      source: sstephenson/ruby-build
-    rbenv-gem-rehash:
-      ensure: v1.0.0
-      source: sstephenson/rbenv-gem-rehash
+ruby::build::ensure: "v20140517"
+ruby::rbenv::ensure: "v0.4.0"
+# See https://github.com/boxen/puppet-ruby for docs
+ruby::global::version: "2.1.2"
+ruby::rbenv_plugins:
+  rbenv-vars:
+    ensure: v1.2.0
+    source: sstephenson/rbenv-vars
+  ruby-build:
+    ensure: v20140514
+    source: sstephenson/ruby-build
+  rbenv-gem-rehash:
+    ensure: v1.0.0
+    source: sstephenson/rbenv-gem-rehash
+
+## Use default ports for databases
+# mysql::config::port: 3306
+# postgresql::port: 5432
