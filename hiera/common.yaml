@@ -1,10 +1,15 @@
 ---
+  ruby::build::ensure: "v20140517"
+  ruby::rbenv::ensure: "v0.4.0"
   # See https://github.com/boxen/puppet-ruby for docs
-  ruby::global::version: "2.1.0"
+  ruby::global::version: "2.1.2"
   ruby::rbenv_plugins:
     rbenv-vars:
       ensure: v1.2.0
       source: sstephenson/rbenv-vars
     ruby-build:
-      ensure: v20140408
+      ensure: v20140514
       source: sstephenson/ruby-build
+    rbenv-gem-rehash:
+      ensure: v1.0.0
+      source: sstephenson/rbenv-gem-rehash
