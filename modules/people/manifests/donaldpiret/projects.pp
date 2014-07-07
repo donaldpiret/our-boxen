@@ -19,7 +19,7 @@ class people::donaldpiret::projects {
     postgresql    => true,
     nginx         => true,
     redis         => true,
-    ruby          => '2.1.1',
+    ruby          => '2.1.2',
     source        => 'https://github.com/trainers/trainersvault.git',
   }
   
