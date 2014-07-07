@@ -22,4 +22,16 @@ class people::donaldpiret::projects {
     ruby          => '2.1.1',
     source        => 'https://github.com/trainers/trainersvault.git',
   }
+  
+  boxen::project { 'poblano':
+    dotenv        => false,
+    memcached     => false,
+    elasticsearch => false,
+    mysql         => true,
+    postgresql    => false,
+    nginx         => true,
+    redis         => true,
+    ruby          => '2.1.1',
+    source        => 'https://github.com/binaries/poblano.git',
+  }
 }
