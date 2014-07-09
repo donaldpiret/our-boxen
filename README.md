@@ -27,7 +27,7 @@ How do you do it?
 ```
 sudo mkdir -p /opt/boxen
 sudo chown ${USER}:admin /opt/boxen
-git clone https://github.com/roomorama/roomorama-boxen.git /opt/boxen/repo
+git clone https://github.com/donaldpiret/our-boxen.git /opt/boxen/repo
 
 cd /opt/boxen/repo
 script/boxen
